@@ -1,5 +1,4 @@
 package com.cms.dsmovie.entities;
-
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
@@ -22,7 +21,7 @@ public class Score {
 	}
 	
 	public void setMovie(Movie movie) {
-		this.setMovie(movie);
+		id.setMovie(movie);
 		
 		
 	}

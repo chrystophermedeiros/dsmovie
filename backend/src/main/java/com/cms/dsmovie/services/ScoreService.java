@@ -61,7 +61,7 @@ public class ScoreService {
 		
 		movie = movieRepository.save(movie);
 		
-		return  new MovieDTO(movie);
+		return new MovieDTO(movie);
 	}
 	
 }

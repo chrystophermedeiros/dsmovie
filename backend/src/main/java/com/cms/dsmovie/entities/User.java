@@ -1,5 +1,4 @@
 package com.cms.dsmovie.entities;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

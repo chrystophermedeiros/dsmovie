@@ -1,5 +1,4 @@
 package com.cms.dsmovie.entities;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -95,6 +94,9 @@ public class Movie {
 	public Set<Score> getScores() {
 		return scores;
 	}
+
+
+	
 	
 	
 	
