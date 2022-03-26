@@ -68,6 +68,9 @@ function FormCard({ movieId }: Props) {
               <option>4</option>
               <option>5</option>
             </select>
+            <div className="form-group dsmovie-form-group">
+            <label htmlFor="Comentar">Deixe seu comentario</label>
+            </div>
           </div>
           <div className="dsmovie-form-btn-container">
             <button type="submit" className="btn btn-primary dsmovie-btn">
